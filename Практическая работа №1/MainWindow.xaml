@@ -12,6 +12,8 @@
             </MenuItem>
             <MenuItem Header="Выход" Click="MenuItem_Click_Выход" ToolTip="Закрывает рабочую программу" >
             </MenuItem>
+            <MenuItem Header="Анекдот" Click="MenuItem_Click_Анекдот" ToolTip="Анектод" >
+            </MenuItem>
         </Menu>
         <Button Content="Сгенерировать числа" HorizontalAlignment="Left" Margin="46,160,0,0" VerticalAlignment="Top" Width="128" ToolTip="Сгенирирует некоторорые числа  пока разница не станет меньше числа K" Click="Button_Click_Сгенерировать"/>
         <Label Content="Сгенерированные числа" HorizontalAlignment="Left" Margin="556,95,0,0" VerticalAlignment="Top"/>
