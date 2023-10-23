@@ -26,7 +26,7 @@ namespace Практическая_работа__1
             InitializeComponent();
         }
 
-        private void MenuItem_Click_Выход(object sender, RoutedEventArgs e)// событие закрытия рабочего окна программы
+        private void MenuItem_Click_Выход(object sender, RoutedEventArgs e)// событие закрытия рабочего окна программы 
         {
             this.Close();
         }
@@ -70,7 +70,7 @@ namespace Практическая_работа__1
             TB_Числа.Clear();
         }
 
-        private void MenuItem_Click_Анекдот(object sender, RoutedEventArgs e)
+        private void MenuItem_Click_Анекдот(object sender, RoutedEventArgs e) // 
         {
             MessageBox.Show("№1 \n Почему застрелился Гитлер - ему пришёл счет за газ; \n №2 \n Купил в интернете книгу Как обманывают в интернете \n до сих пор жду пока её доставят.");
         }
